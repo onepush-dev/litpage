@@ -18,4 +18,5 @@ ENV NODE_ENV=production \
     NC_BOOTSTRAP_NAME=Admin \
     NC_BOOTSTRAP_WORKSPACE=Workspace
 EXPOSE 3001
-CMD ["node", "apps/server/src/main.ts"]
+# Railway injects PORT=8080 when no PORT variable is set; the public domain targets 3001, so pin it here.
+CMD ["sh", "-c", "PORT=${LITPAGE_PORT:-3001} exec node apps/server/src/main.ts"]

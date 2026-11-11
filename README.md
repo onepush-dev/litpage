@@ -5,7 +5,7 @@
 [Litpage](https://github.com/litmers-dev/litpage) (MIT) is a block editor, databases with a dozen views, real-time
 collaboration, REST API/webhooks/MCP and bring-your-own-key AI in one Node.js process with one SQLite file.
 
-This repo packages upstream commit `931cd28` unmodified as `ghcr.io/onepush-dev/litpage:931cd28`.
+This repo packages upstream commit `931cd28` unmodified as `ghcr.io/onepush-dev/litpage:931cd28-r1` (listens on 3001 regardless of the injected PORT).
 
 ## What the template sets up
 - One service `litpage` on port 3001 with a public domain and health check on `/login`
