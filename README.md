@@ -1,6 +1,6 @@
 # Litpage — self-hosted workspace for pages, databases and AI. Deploy on Railway with one click.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/TBD)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/YQ00uT)
 
 [Litpage](https://github.com/litmers-dev/litpage) (MIT) is a block editor, databases with a dozen views, real-time
 collaboration, REST API/webhooks/MCP and bring-your-own-key AI in one Node.js process with one SQLite file.
